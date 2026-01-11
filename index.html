@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <title>kuma-code | Web制作ポートフォリオ</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css" />
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <div class="topbar py-2">
+    <div class="container d-flex flex-wrap justify-content-between gap-2 align-items-center">
+      <div class="small text-muted">関東在住｜Web制作（コーディング / デザイン / 公開・保守）</div>
+      <div class="d-flex gap-2">
+        <a class="btn btn-sm btn-outline-secondary" href="./works.html">実績を見る</a>
+        <a class="btn btn-sm btn-primary" href="./contact.html">無料相談</a>
+      </div>
+    </div>
+  </div>
+
+  
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="fw-bold">kuma-code</span>
+        <span class="text-muted small d-none d-md-inline">Web制作</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="./works.html">実績</a></li>
+          <li class="nav-item"><a class="nav-link" href="./pricing.html">料金</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">自己紹介</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">お問い合わせ</a></li>
+        </ul>
+        <div class="d-lg-flex ms-lg-3 gap-2 mt-3 mt-lg-0">
+          <a class="btn btn-outline-secondary btn-sm" href="./pricing.html#maintenance">保守プラン</a>
+          <a class="btn btn-primary btn-sm" href="./contact.html">相談する</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+  <section class="hero">
+    <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80');" aria-hidden="true"></div>
+    <div class="container py-5 py-lg-6 position-relative">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <p class="eyebrow mb-2">デザインがある方も、ない方も。</p>
+          <h1 class="display-4 fw-bold lh-sm hero-title">
+            “伝わるLP”を、<br class="d-none d-md-inline">
+            速く・崩れにくく・運用しやすく。
+          </h1>
+          <p class="lead mt-3 text-body-secondary">
+            <strong>kuma-code</strong> は、<span class="text-nowrap">コーディング〜公開・運用保守</span>まで一貫対応。
+            デザイナーさんの実装パートナーとしても、非デザイナーの方の“丸投げ制作”としても動けます。
+          </p>
+
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a class="btn btn-primary btn-lg" href="./contact.html">まず相談する</a>
+            <a class="btn btn-outline-secondary btn-lg" href="./pricing.html">料金を見る</a>
+          </div>
+
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <span class="badge text-bg-light border">成果物ベース料金</span>
+            <span class="badge text-bg-light border">レスポンシブ対応</span>
+            <span class="badge text-bg-light border">保守は回数制で安心</span>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="glass-card p-4 p-md-5 rounded-4 shadow-sm">
+            <div class="small text-muted">提供できること（要約）</div>
+            <ul class="list-unstyled mt-3 mb-0">
+              <li class="d-flex gap-2 mb-2"><span class="check"></span><span><strong>LP制作</strong>（構成/デザイン/実装）</span></li>
+              <li class="d-flex gap-2 mb-2"><span class="check"></span><span><strong>コーディング</strong>（デザインから忠実に）</span></li>
+              <li class="d-flex gap-2 mb-2"><span class="check"></span><span><strong>公開対応</strong>（ドメイン/SSL/サーバー）</span></li>
+              <li class="d-flex gap-2"><span class="check"></span><span><strong>運用保守</strong>（回数制・範囲明確）</span></li>
+            </ul>
+            <a class="btn btn-primary w-100 mt-4" href="./works.html">実績を見る</a>
+            <p class="small text-muted mt-2 mb-0">※まずはテキストで要件を整理するところから一緒に進めます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave wave-bottom" aria-hidden="true"></div>
+  </section>
+
+  <section class="section-pad" id="works">
+    <div class="container">
+      <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mb-3">
+        <div>
+          <p class="eyebrow mb-2">WORKS</p>
+          <h2 class="display-6 fw-bold mb-0 section-title">制作実績（抜粋）</h2>
+        </div>
+        <a class="link-primary fw-semibold text-decoration-none" href="./works.html">実績一覧 →</a>
+      </div>
+
+      <div class="row g-3 g-lg-4">
+        <div class="col-lg-6">
+          <article class="card h-100 work-card overflow-hidden">
+            <div class="ratio ratio-16x9">
+              <img class="w-100 h-100 object-fit-cover" src="https://image.thum.io/get/width/1400/https://kuma-code215.github.io/portfolio-farm/" alt="HINATA RICE FARM のスクリーンショット（サムネイル）">
+            </div>
+            <div class="card-body">
+              <div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+                <span class="badge text-bg-light border">LP</span>
+                <span class="badge text-bg-light border">Bootstrap 5</span>
+                <span class="badge text-bg-light border">レスポンシブ</span>
+              </div>
+              <h3 class="h5 fw-bold mb-1">HINATA RICE FARM（架空LP）</h3>
+              <p class="text-body-secondary mb-3">
+                情報設計・余白・タイポグラフィを重視して、読みやすいセクション構成で制作。
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-primary btn-sm" href="https://kuma-code215.github.io/portfolio-farm/" target="_blank" rel="noopener">サイトを見る</a>
+                <a class="btn btn-outline-secondary btn-sm" href="./works.html#farm">解説を見る</a>
+              </div>
+              <div class="small text-muted mt-3">URL：https://kuma-code215.github.io/portfolio-farm/</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-6">
+          <article class="card h-100 work-card overflow-hidden">
+            <div class="ratio ratio-16x9">
+              <img class="w-100 h-100 object-fit-cover" src="https://image.thum.io/get/width/1400/https://kuma-code215.github.io/portfolio-beauty/" alt="LUMINA BEAUTY のスクリーンショット（サムネイル）">
+            </div>
+            <div class="card-body">
+              <div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+                <span class="badge text-bg-light border">美容サロンLP</span>
+                <span class="badge text-bg-light border">Bootstrap 5</span>
+                <span class="badge text-bg-light border">CTA設計</span>
+              </div>
+              <h3 class="h5 fw-bold mb-1">LUMINA BEAUTY（架空LP）</h3>
+              <p class="text-body-secondary mb-3">
+                予約導線（CTA）を中心に、メニュー/スタッフ/レビューなど“予約に必要な情報”を整理して配置。
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-primary btn-sm" href="https://kuma-code215.github.io/portfolio-beauty/" target="_blank" rel="noopener">サイトを見る</a>
+                <a class="btn btn-outline-secondary btn-sm" href="./works.html#beauty">解説を見る</a>
+              </div>
+              <div class="small text-muted mt-3">URL：https://kuma-code215.github.io/portfolio-beauty/</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad section-soft" id="services">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-5">
+          <div class="ratio ratio-4x3 rounded-4 overflow-hidden border shadow-sm">
+            <img class="w-100 h-100 object-fit-cover" src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1600&q=80" alt="制作のイメージ写真（フリー素材）">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <p class="eyebrow">SERVICES</p>
+          <h2 class="display-6 fw-bold section-title mb-3">できること</h2>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="mini p-3 rounded-4 h-100">
+                <div class="fw-bold">コーディング</div>
+                <div class="small text-body-secondary mt-1">HTML/CSS/Bootstrap、レスポンシブ、軽いJS。崩れにくい実装。</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mini p-3 rounded-4 h-100">
+                <div class="fw-bold">デザイン制作</div>
+                <div class="small text-body-secondary mt-1">非デザイナー向けに構成〜デザインまで。まずは“伝える順番”から整理。</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mini p-3 rounded-4 h-100">
+                <div class="fw-bold">サーバー構築・公開</div>
+                <div class="small text-body-secondary mt-1">ドメイン/SSL/ホスティング。GitHub Pages等も対応。</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mini p-3 rounded-4 h-100">
+                <div class="fw-bold">運用保守</div>
+                <div class="small text-body-secondary mt-1">回数制で範囲を明確に。頼み放題にならない設計。</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a class="btn btn-primary" href="./pricing.html#services">料金を見る</a>
+            <a class="btn btn-outline-secondary" href="./contact.html">相談する</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" id="skills">
+    <div class="container">
+      <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mb-3">
+        <div>
+          <p class="eyebrow mb-2">SKILLS</p>
+          <h2 class="display-6 fw-bold mb-0 section-title">スキル</h2>
+        </div>
+        <div class="small text-muted">“技術名”より “できること” を中心に記載。</div>
+      </div>
+
+      <div class="row g-3 g-lg-4">
+        <div class="col-lg-4">
+          <div class="card h-100 skill-card">
+            <div class="card-body">
+              <div class="icon-pill mb-3" aria-hidden="true">UI</div>
+              <div class="fw-bold">LP/サイトの実装</div>
+              <p class="text-body-secondary mb-0 small">レスポンシブ、コンポーネント設計、保守しやすいCSS設計。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100 skill-card">
+            <div class="card-body">
+              <div class="icon-pill mb-3" aria-hidden="true">SEO</div>
+              <div class="fw-bold">基本のSEO/表示最適化</div>
+              <p class="text-body-secondary mb-0 small">title/description、OGP、画像最適化、読み込み配慮。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100 skill-card">
+            <div class="card-body">
+              <div class="icon-pill mb-3" aria-hidden="true">OPS</div>
+              <div class="fw-bold">公開・運用</div>
+              <p class="text-body-secondary mb-0 small">ドメイン/SSL、ホスティング設定、軽微改修を回数制で対応。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 p-4 rounded-4 border bg-white">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg-8">
+            <div class="fw-bold">デザイナーさんへ</div>
+            <div class="text-body-secondary small mt-1">
+              デザインデータ（Figma等）からのコーディング・公開・保守まで対応可能です。
+              「ここだけお願いしたい」に合わせて、成果物ベースで見積もります。
+            </div>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-outline-secondary w-100 w-lg-auto" href="./contact.html">制作相談する</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="container">
+      <div class="cta rounded-4 p-4 p-md-5">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg-8">
+            <p class="eyebrow mb-2">CONTACT</p>
+            <h2 class="h2 fw-bold mb-2">まずは無料で相談できます</h2>
+            <p class="text-body-secondary mb-0">
+              「デザインはある／ない」「LPを作りたい」「公開や保守もお願いしたい」など、状況をテキストで送ってください。
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-primary btn-lg w-100 w-lg-auto" href="./contact.html">お問い合わせへ</a>
+            <div class="small text-muted mt-2">通常返信：1〜2営業日</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<footer class="footer mt-auto">
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <div class="d-flex align-items-center gap-2">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <div>
+            <div class="fw-bold">kuma-code</div>
+            <div class="small text-muted">Web制作 / Coding / Design / Ops</div>
+          </div>
+        </div>
+        <p class="small text-muted mt-3 mb-0">
+          関東在住（オンライン対応）<br>
+          連絡はテキスト中心で対応可能です。<br>
+          Mail: hello@kuma-code.example
+        </p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-3">
+          <div class="col-6 col-md-4">
+            <div class="small text-muted mb-2">サイト</div>
+            <ul class="list-unstyled mb-0">
+              <li><a class="footer-link" href="./works.html">実績</a></li>
+              <li><a class="footer-link" href="./pricing.html">料金</a></li>
+              <li><a class="footer-link" href="./about.html">自己紹介</a></li>
+              <li><a class="footer-link" href="./contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="small text-muted mb-2">サービス</div>
+            <ul class="list-unstyled mb-0">
+              <li><a class="footer-link" href="./pricing.html#services">制作</a></li>
+              <li><a class="footer-link" href="./pricing.html#maintenance">運用保守</a></li>
+              <li><a class="footer-link" href="./pricing.html#flow">制作の流れ</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="small text-muted mb-2">SNS</div>
+            <div class="d-flex flex-wrap gap-2">
+              <a class="btn btn-outline-secondary btn-sm" href="#" aria-label="Threads">Threads</a>
+              <a class="btn btn-outline-secondary btn-sm" href="#" aria-label="GitHub">GitHub</a>
+              <a class="btn btn-outline-secondary btn-sm" href="#" aria-label="X">X</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <div class="d-flex flex-wrap justify-content-between gap-2">
+      <small class="text-muted">© 2026 kuma-code — Portfolio site</small>
+      <small class="text-muted">Built with Bootstrap 5</small>
+    </div>
+  </div>
+</footer>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/script.js"></script>
+
+</body>
+</html>
